@@ -42,7 +42,7 @@ public class ApiStreamer extends Thread {
 
         String line;
 
-        while ((line=bufferedReader.readLine()) != null) {
+        while ((line = bufferedReader.readLine()) != null) {
             System.out.println(line);
         }
         bufferedReader.close();
