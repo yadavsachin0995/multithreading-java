@@ -9,6 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class ApiStreamer extends Thread {
+
 //    Override the run method to call hitGithubApi() method infinitely
     @Override
     public void run() {
